@@ -1,0 +1,49 @@
+version: "3.1"
+
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+
+- intent: thanks
+  examples: |
+    - Thank you
+    - Thanks a lot
+    - Much appreciated
+
+- intent: about_startup
+  examples: |
+    - What is Seyarkai about?
+    - Can you tell me about Seyarkai?
+
+- intent: establishment_date
+  examples: |
+    - When was Seyarkai established?
+    - What is the establishment date of Seyarkai?
+
+- intent: founder
+  examples: |
+    - Who founded Seyarkai?
+    - Who is the founder of Seyarkai?
+
+- intent: startup_reason
+  examples: |
+    - What was the reason for starting Seyarkai?
+    - Why was Seyarkai started?
+
+- intent: functionalities
+  examples: |
+    - What functionalities does Seyarkai offer?
+    - Can you list Seyarkai's functionalities?
+
+- intent: contact_info
+  examples: |
+    - How can I contact Seyarkai?
+    - What is the contact information for Seyarkai?

@@ -1,0 +1,43 @@
+version: "3.1"
+
+- story: User asks about Seyarkai
+  steps:
+    - intent: greet
+    - action: action_greet
+    - intent: about_startup
+    - action: action_about_startup
+
+- story: User asks about establishment date
+  steps:
+    - intent: greet
+    - action: action_greet
+    - intent: establishment_date
+    - action: action_establishment_date
+
+- story: User asks about founder
+  steps:
+    - intent: greet
+    - action: action_greet
+    - intent: founder
+    - action: action_founder
+
+- story: User asks about reason for startup
+  steps:
+    - intent: greet
+    - action: action_greet
+    - intent: startup_reason
+    - action: action_startup_reason
+
+- story: User asks about functionalities
+  steps:
+    - intent: greet
+    - action: action_greet
+    - intent: functionalities
+    - action: action_functionalities
+
+- story: User asks for contact information
+  steps:
+    - intent: greet
+    - action: action_greet
+    - intent: contact_info
+    - action: action_contact_info

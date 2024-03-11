@@ -1,0 +1,65 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - thanks
+  - about_startup
+  - establishment_date
+  - founder
+  - startup_reason
+  - functionalities
+  - contact_info
+
+entities:
+  - startup_name
+
+slots:
+  startup_name:
+    type: text
+    mappings:
+      - type: custom
+        elements:
+          - your_elements_here
+
+responses:
+  utter_iamabot:
+  - text: "I am a bot."
+  
+  utter_greet:
+    - text: "Hello! How can I assist you with Seyarkai today?"
+
+  utter_goodbye:
+    - text: "Goodbye! If you have any more questions, feel free to ask."
+
+  utter_thanks:
+    - text: "You're welcome! If you need further assistance, just let me know."
+
+  utter_about_startup:
+    - text: "Seyarkai is a startup dedicated to [Brief Description of the Startup]."
+
+  utter_establishment_date:
+    - text: "Seyarkai was established in [Establishment Year]."
+
+  utter_founder:
+    - text: "Seyarkai was founded by [Founder's Name]."
+
+  utter_startup_reason:
+    - text: "The reason for establishing Seyarkai was [Reason for Startup]."
+
+  utter_functionalities:
+    - text: "Seyarkai offers [Functionalities Offered by the Startup]."
+
+  utter_contact_info:
+    - text: "You can contact Seyarkai at [Contact Information]."
+
+actions:
+- action_greet
+- action_goodbye
+- action_thanks
+- action_about_startup
+- action_establishment_date
+- action_founder
+- action_startup_reason
+- action_functionalities
+- action_contact_info
